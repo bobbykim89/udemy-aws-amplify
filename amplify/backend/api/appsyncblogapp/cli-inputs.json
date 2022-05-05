@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "appsyncblogapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "F:\\WEB\\Udemy-appsync-amplify\\blog-app\\amplify\\backend\\api\\appsyncblogapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
