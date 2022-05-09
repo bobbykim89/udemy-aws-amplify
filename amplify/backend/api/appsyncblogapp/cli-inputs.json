@@ -6,7 +6,16 @@
     "gqlSchemaPath": "F:\\WEB\\Udemy-appsync-amplify\\blog-app\\amplify\\backend\\api\\appsyncblogapp\\schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-05-08T23:44:31.544Z",
+      "keyDescription": "public api key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authappsyncblogapp63e4e999"
+      }
+    ]
   }
 }
